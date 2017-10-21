@@ -40,6 +40,12 @@ The most important of these properties are:
 
 The properties set in a flex container affect only the **immediate children** of this flex container (that is, the flex items). Any **content inside the flex items is unaffected** by the flex container and laid out as usual.
 
+### Compatibility
+
+Inside a flex container, a property like `float` has no effect. Thus, if some element is set to `display: flex`, then don't try to apply e.g. `float: right` to its children, as it will not work.
+
+The same applies for properties like `text-align` or `vertical-align` applied to a `display: flex` element: they have no effect. Use `justify-content` and `align-items`.
+
 
 ## Summary
 

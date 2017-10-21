@@ -11,23 +11,37 @@ body {
 }
 
 header {
-  background-color: #444;
+  background-color: #555;
   color: white;
-  height: 4rem;
+  height: 5.5rem;
   display: flex;
-  /* Align content elements horizontally with equal space between them */
   justify-content: space-between;
 }
 
 header div {
   padding: 0 1rem;
-  min-width: 5rem;
-  background-color: #282828;
+  background-color: #333;
+  min-width: 7rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 header div:hover {
-  background-color: #181818;
+  background-color: #222;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

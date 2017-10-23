@@ -109,3 +109,5 @@ And that's it.
     - <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 - Approaches to center things
     - <https://www.w3.org/Style/Examples/007/center.en.html>
+- A more sophisticated header
+    - <https://github.com/weibeld/webdesign-header-align-extended>
